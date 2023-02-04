@@ -6,6 +6,9 @@
     height: 100%;
   }
   
+#searchInput{
+    height: 10%;
+}
   /* 
    * Optional: Makes the sample page fill the window. 
    */

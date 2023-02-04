@@ -9,3 +9,11 @@
 api: AIzaSyBdwA5v8oB6nMHXYUPk5eOWmSNQTfYeCNc
 
 polyfill: adds support and funcitonality for old browsers
+
+1) put in a specific address
+2) scan 25 mile radius (or up to user?)
+    - user input: address, range
+3) google maps will generate a map of that radius 
+4) google maps will generate markers of charities in that radius
+    - marker will include info of charity
+5) 

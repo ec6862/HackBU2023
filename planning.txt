@@ -1,0 +1,7 @@
+GOAL -> civic engagement website implementing Google Maps.a
+
+1. Get their address, and how far they want to search.
+2. Choose which type of events they want (donation, volunteering, meetings, parades, protests, etc)
+3. Get a list of trigger words related to the event that they want from a website or word bank. (most likely a word bank)
+4. search in the Google Maps API with the keywords, mark the locations with a marker (prob variable)
+5. store the locations in a list, and finally display all the marked location in a final search
