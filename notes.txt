@@ -1,0 +1,11 @@
+ - if we want to do geohack i think we shld use react app
+ - idk machine learning
+
+
+ - encrypt sound messages into binary
+ - cs art generator
+    - convert messsages, binary into art/rgb values
+- 
+api: AIzaSyBdwA5v8oB6nMHXYUPk5eOWmSNQTfYeCNc
+
+polyfill: adds support and funcitonality for old browsers

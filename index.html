@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <html>
-    <title></title>
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <script src="script.js" defer></script> 
-        <script src="myscripts.js" defer></script>
-    </head>
+    <html>
+        <head>
+          <title>Simple Map</title>
+          <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script> 
+      
+          <link rel="stylesheet" type="text/css" href="./style.css" />
+          <script type="module" src="./script.js" defer></script>
+        </head>
         <body>
-           balls
-           i love to code
-           hello
+          <div id="map"></div>
+      
+          <!-- 
+            The `defer` attribute causes the callback to execute after the full HTML
+            document has been parsed. For non-blocking uses, avoiding race conditions,
+            and consistent behavior across browsers, consider loading using Promises
+            with https://www.npmjs.com/package/@googlemaps/js-api-loader.
+            -->
+          <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBd wA5v8oB6nMHXYUPk5eOWmSNQTfYeCNc&callback=initMap&v=weekly"
+            defer
+          ></script>
         </body>
+      </html>
 </html>
+
+
