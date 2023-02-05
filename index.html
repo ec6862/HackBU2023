@@ -1,22 +1,33 @@
 <!DOCTYPE html>
 <html>
-    <html>
-        <head>
-          <title>toad</title>
-          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-          <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script> 
-          <link rel="stylesheet" type="text/css" href="./style.css" />
-          <script type="module" src="./script.js" defer></script>
-          <script src="key.js" defer></script>
-          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBd wA5v8oB6nMHXYUPk5eOWmSNQTfYeCNc&libaries=places&callback=initMap&v=weekly" defer></script>
-        </head>
-        <body>
-          <header id = "textBar" class = "d-flex align-items-center">
-            <div id = "headProfile">
-              potatoesz
-            </div>
-            <input type="text" id="searchInput"> <button onclick="search()">Search</button>
-          </header>
-        </body>
-      </html>
+  <!--head-->
+  <head>
+      <title>toad</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script> 
+      <link rel="stylesheet" type="text/css" href="./style.css" />
+      <script type="module" src="./script.js" defer></script>
+      <script src="key.js" defer></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBd wA5v8oB6nMHXYUPk5eOWmSNQTfYeCNc&libaries=places&callback=initMap&v=weekly" defer></script>
+    </head>
+    
+    <!--Body-->
+    <body>
+      <header id = "headerBar" class = "d-flex align-items-center">
+        <!--background photo-->        
+      </header>
+      <!--search bar-->
+      <div id = "searchBar">
+        <input type="text" id="searchInput" placeholder = "Input your address here..."> <button onclick="search()">Search</button>
+      </div>
+      <div id="question">How would you like to contribute today?</div> 
+      <div id="dropdown">
+        <select>
+          <option id="don"> Donate!</option>
+          <option id="vol"> Volunteer!</option>
+          <option id="sign"> Sign a local petition</option> 
+          <option id="event"> Attend an event in the neighborhood</option> 
+        </select>
+      </div>
+  </body>
 </html>
